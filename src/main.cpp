@@ -351,7 +351,7 @@ void setup() {
   // allows the "autoConnect" method to be non-blocking which can implement this same functionality.  However,
   // that change is only on the development branch so we are going to continue to use this fork until
   // that is merged and ready.
-  wifiManager.setSetupLoopCallback(handleLED);
+  // wifiManager.setSetupLoopCallback(handleLED);
 
   // Allows us to have static IP config in the captive portal. Yucky pointers to pointers, just to have the settings carry through
   wifiManager.setSaveConfigCallback(wifiExtraSettingsChange);
